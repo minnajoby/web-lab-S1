@@ -1,0 +1,205 @@
+<html>
+<head>
+	<title>Registration form</title>
+</head>
+<body>
+	<h2>STUDENT REGISTRATION FORM</h2>
+	<form>
+		<table border="2">
+			<tr>
+				<td>First Name</td>
+				<td><input type="text" name="fname"></td>
+			</tr>
+			<tr>
+				<td>Last Name</td>
+				<td><input type="text" name="lname"></td>
+			</tr>
+			<tr>
+				<td>Date of Birth</td>
+				<td>
+					<select name ="day">
+						<option value="">1</option>
+						<option value="1">2</option>
+						<option value="">3</option>
+						<option value="1">4</option>
+						<option value="">5</option>
+						<option value="1">6</option>
+						<option value="">7</option>
+						<option value="1">8</option>
+						<!--Add day options 1-31-->
+					</select>
+					<select name ="month">
+						<option value="">01</option>
+						<option value="">02</option>
+						<option value="">03</option>
+						<option value="">04</option>
+						<option value="">05</option>
+						<option value="">06</option>
+						
+						<!--Add month options 1-12-->
+					</select>
+					<select name ="year">
+						<option value="">2000</option>
+						<option value="">2001</option>
+						<option value="">2002</option>
+						<!--Add year options-->
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Email ID</td>
+				<td><input type="email" name="email"></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td><input type ="radio" name="gender"value="male">Male
+				<input type="radio" name="gender"value="female">Female</td>
+			</tr>
+			<tr>
+				<td>Address</td>
+				<td><textarea name="address" rows="3"></textarea></td>
+			</tr>
+			<tr>
+				<td>City</td>
+				<td><input type="text" name="city"></td>
+			</tr>
+			<tr>
+				<td>PIN Code</td>
+				<td><input type="text" name="pincode"></td>
+			</tr>
+			<tr>
+				<td>State</td>
+				<td><input type="text" name="state"></td>
+			</tr>
+			<tr>
+				<td>Country</td>
+				<td>
+					<select name ="country">
+						<option value="">india</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Hobbies</td>
+				<td>
+				<label for ="drawing">Drawing</label>
+				<input type ="checkbox" id="drawing">
+				<label for ="drawing">Singing</label>
+				<input type ="checkbox" id="singing">
+				<label for ="drawing">Dancing</label>
+				<input type ="checkbox" id="dancing">
+				<label for ="drawing">Sketching</label>
+				<input type ="checkbox" id="sketching">
+				<label for ="drawing">Others</label>
+				<input type ="checkbox" id="others">
+				<input type="text">
+				</td>
+			</tr>
+			<tr>
+				<td>Qualification</td>
+				<td>
+					<table>
+						<tr>
+						<th>SI.No Examination</th>
+						<th>Board</th>
+						<th>Percentage</th>
+						<th>Year of passing</th>
+						</tr>
+						<tr>
+							<td>1. Class X</td>
+							<td>
+							<input type ="text">
+							</td>
+							<td>
+							<input type ="text">
+							</td>
+							<td>
+							<input type ="text">
+							</td>
+						</tr>
+						<tr>
+							<td>2. Class XII</td>
+							<td>
+							<input type ="text">
+							</td>
+							<td>
+							<input type ="text">
+							</td>
+							<td>
+							<input type ="text">
+							</td>
+						</tr>
+						<tr>
+							<td>3. Graduation</td>
+							<td>
+							<input type ="text">
+							</td>
+							<td>
+							<input type ="text">
+							</td>
+							<td>
+							<input type ="text">
+							</td>
+						</tr>
+						<tr>
+							<td>4. Masters</td>
+							<td>
+							<input type ="text">
+							</td>
+							<td>
+							<input type ="text">
+							</td>
+							<td>
+							<input type ="text">
+							</td>
+						</tr>
+						<tr style ="text-align:center">
+							<td></td>
+							<td>(10 char max)</td>
+							<td>(upto 2 decimal)</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>Courses Applied For </td>
+				<td>
+					<label for ="mca">MCA</label>
+					<input type ="radio" id="mca" name="course">
+					<label for ="mca">M Tech</label>
+					<input type ="radio" id="mtech" name="course">
+					<label for ="mca">M.Sc</label>
+					<input type ="radio" id="msc" name="course">
+					<label for ="mca">Phd</label>
+					<input type ="radio" id="phd" name="course">
+				</td>
+			</tr>	
+	               <tr>
+				<td>Type your password</td>
+				<td><input type ="password" name="password"></td>
+			</tr>
+			<tr>
+				<td>Upload Your Photo</td>
+				<td>
+					<input type="file">
+				</td>
+			</tr>
+			<tr> 
+				<td>Date of TC</td>
+				<td>
+					<input type="data">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="center">
+					<input type="submit" value="submit">
+					<input type="reset" value="reset">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
+			
+				
+					
