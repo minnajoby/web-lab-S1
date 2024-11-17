@@ -1,0 +1,18 @@
+body{
+	background-color:lightgrey;
+}
+.p1{
+	color:red;
+	background-color:light blue;
+	font size:20px;
+}
+.p2{
+	color:yellow;
+	background-color:pink;
+	font-size:18px;
+}
+.p3{
+	color:black;
+	background-color:lightgreen;
+	font-size:16px;
+}
