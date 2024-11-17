@@ -1,0 +1,21 @@
+a{
+ display:inline-block;
+ padding:6px 8px 6px 16px;
+ color:white;
+ text-decoration:none;
+}
+.main{
+ display:flex;
+ padding:0 10px;
+ height:2000px;
+}
+.sidenav{
+ height:100%;
+ width:160px;
+ padding-top:20px;
+ background-color:green;
+ align-items:start;
+}
+.sidenav a:hover{
+ color:red;
+}
